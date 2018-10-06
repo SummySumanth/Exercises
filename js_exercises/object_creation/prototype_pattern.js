@@ -11,9 +11,12 @@ peopleProto.prototype.print = function(){
 let person1 = new peopleProto;
 let person2 = new peopleProto;
 
-person1.name = 'Summy';
+// person1.name = 'Summy';
 person1.age = 22;
 person1.state = 'alive';
 
 person1.print();
 person2.print();
+
+console.log('name' in person1, 'has a name property');
+console.log(person1.hasOwnProperty('name'), 'has own name property');
