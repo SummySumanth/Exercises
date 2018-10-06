@@ -1,0 +1,1 @@
+let promiseToCleanTheRoom = new Promise();
