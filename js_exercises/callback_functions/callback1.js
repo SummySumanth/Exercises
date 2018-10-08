@@ -8,3 +8,9 @@ let y = function(callback){
 }
 
 y(x);
+
+/*
+
+Callback functions are the functions that are passed as argument to another function
+
+*/
