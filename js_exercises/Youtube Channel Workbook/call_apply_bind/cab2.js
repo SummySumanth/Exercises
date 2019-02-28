@@ -8,4 +8,4 @@ let addToThis = function(a,b,c){
 
 
 console.log(addToThis.apply(obj, arr)); //  functionname.call(obj, functionArguments)  
-console.log(addToThis.apply(obj2, arr));
+// console.log(addToThis.apply(obj2, arr));
