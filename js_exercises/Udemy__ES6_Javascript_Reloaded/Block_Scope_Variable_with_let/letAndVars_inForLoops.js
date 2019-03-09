@@ -20,3 +20,6 @@ LetFuncs[1]();
 LetFuncs[2]();
 LetFuncs[3]();
 LetFuncs[4]();
+
+// on using vars in for loop, the i in closure to that function takes the value of last iteration
+// where as on using let in for loop, the i in the closure to that function takes the value of the current interation
