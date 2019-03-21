@@ -1,4 +1,4 @@
-let serviceId =123;
+let serviceId = 123;
 
 let url = `/service/${serviceId}`;
 
